@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile page let`s gossip</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="profile.css">
+
+	<!-- Script for Font-family -->
+	<script src="https://use.fontawesome.com/2e5e7965a4.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          		 <span class="glyphicon glyphicon-menu-hamburger"></span>            
+        	</button>
+	     	<a class="navbar-brand" href="#">Let`s Gossip</a>
+	    </div> 
+	    <div class="collapse navbar-collapse" id="myNavbar"> 	      
+		    <ul class="nav navbar-nav navbar-right">
+		       <li><a href="storypage.html#body"><span class="glyphicon glyphicon-home"></span></a>
+		       </li>
+		       <li><a href="#"><i class="fa fa-scribd" aria-hidden="true"></i></a></li>
+		       <li><a href="chatpage.html#body"><i class="fa fa-weixin" aria-hidden="true"></i></a></li>
+		       <a href="profile.html#body"><img src="logo.jpeg" class="profile-logo"></a>
+	   		 </ul>
+   		</div>
+	   </div>
+	</nav>
+	<!-- user picture-->
+	<div class="container myrow1">
+		<div class="row ">
+    		<div class="col-sm-12">
+   				<img src="logo.jpeg" class="profile-pic"><br>		
+ 			</div> 			
+		</div>
+	</div>
+	<!--user info area-->
+	<div class="container">
+		<div class="row ">
+    		<div class="col-sm-12 ">
+    			<div class="icon-div">   
+    			 <!-- Modal --> 				
+    				<!-- Trigger the modal with a button -->
+  					<a href="" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-pencil"></span>Edit Profile</a>
+					 
+					  <div class="modal fade" id="myModal" role="dialog">
+					    <div class="modal-dialog">
+					    
+					      <!-- Modal content-->
+					      <div class="modal-content">        
+					        <div class="modal-body">
+					          <div id="backgrnd-img">
+					              <button type="button" class="btn btn-sm">
+					                <span class="glyphicon glyphicon-camera"></span>
+					             </button>
+					          </div>
+					          <div align="center"  class="picture-div">
+					            <img src="logo.jpeg" id="change-pic">
+					            <button type="button" class="btn btn-sm">
+					                <span class="glyphicon glyphicon-camera"></span>
+					            </button>
+					          </div>
+					          <!--form-->
+					          <div id="form-style">
+					              <label>Fullname</label> 
+					              <input type="text" id="Fullname" class="form-control" name="Fullname" placeholder="Fullname"><br>
+
+					              <label>Username</label>  
+					              <input type="text" id="Username" class="form-control" name="Username" placeholder="Username"><br>
+
+					              <label>Email</label> 
+					              <input type="text" id="Email" class="form-control" name="Email" placeholder="Email"><br>
+
+					              <label>Bio</label> 
+					              <textarea class="form-control" rows="4" id="bio"></textarea><br>
+
+					              <label>State</label> 
+					              <input type="text" id="State" class="form-control" name="State" placeholder="State"><br>
+
+					              <label>Country</label> 
+					              <input type="text" id="Country" class="form-control" name="Country" placeholder="Country"><br>
+
+					              <label>Website</label> 
+					              <input type="text" id="Website" class="form-control" name="Website" placeholder="Website"><br>
+
+					          </div>
+					        </div>
+					        <div class="modal-footer">
+					          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					           <button type="button" class="btn save-btn">Save</button>
+					        </div>
+					      </div>					      
+					    </div>
+					  </div>
+		<!--modal effect close-->
+
+				<!--SETTING CODE-->
+				<span data-toggle="modal" data-target="#setting"><span class="glyphicon glyphicon-cog"></span>
+ 			 	</span>
+				
+				<div class="modal fade" id="setting">
+				    <div class="modal-dialog modal-sm">
+				      <div class="modal-content text-center">
+				      
+				        <!-- Modal Header -->
+				        <div class="modal-header">
+				          <h4 class="modal-title pointer"><a href="changepwd.html">Change Password</a> </h4>
+				        </div>
+
+				        <div class="modal-header">
+				          <h4 class="modal-title pointer">Account</h4>
+				        </div>
+
+				        <div class="modal-header">
+				          <h4 class="modal-title pointer">Logout</h4>
+				        </div>
+				        
+				        <div class="modal-header" data-dismiss="modal">
+				          <h4 class="modal-title pointer">Close</h4>
+				        </div>
+				        			        
+				      </div>
+				    </div>
+				  </div>
+				  <!--SETTING CODE END-->
+
+				</div>
+    		</div>    			
+    		<br><br> 
+    		<div class="container">
+    			<h2>Username</h2>
+	   			<h4>Name</h4>
+	   			<h5>Bio</h5>
+    		</div>  				
+   			   				  				
+ 		</div> 			
+	</div>
+
+	<!--for post area -->
+	<div class="container">
+		<hr>
+		<h3 id="post" align="center"><span class="glyphicon glyphicon-th"></span> Posts</h3>
+		<div class="row ">
+    		<div class="col-sm-4 ">
+    			<img src="images/signup.jpeg" class="img-thumbnail picture-style"> 		
+ 			</div> 			
+ 			<div class="col-sm-4 ">
+ 				<img src="images/bckground.jpeg" class="img-thumbnail picture-style"> 	
+ 			</div> 			
+ 			<div class="col-sm-4 ">
+    			<img src="images/j.jpg" class="img-thumbnail picture-style">			
+ 			</div> 			
+		</div>
+
+		<div class="row ">
+			<br>
+    		<div class="col-sm-4 ">
+    			<img src="images/signup.jpeg" class="img-thumbnail picture-style">
+ 			</div> 			
+ 			<div class="col-sm-4 ">
+ 				<img src="images/bckground.jpeg" class="img-thumbnail picture-style"> 
+ 			</div> 			
+ 			<div class="col-sm-4 ">
+    			<img src="images/j.jpg" class="img-thumbnail picture-style">
+ 			</div> 			
+		</div>
+	</div>
+
+</body>
+</html>

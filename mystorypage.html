@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mystory page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="mystorypage.css">
+	<link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
+	<script src="jquery.js"></script>
+	<script src="owl.carousel.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4" id="showstory-area">
+				<div class="content-area">
+					<div class="header">
+						<img src="logo.jpeg">
+						<div class="username">
+							<b>chandanis534</b>
+							<label> 15h</label>
+						</div>
+						<span><a href="storypage.html#body">&times;</a></span>
+					</div>
+					<hr>
+					<div class="parent owl-carousel">
+						<div class="box"><img src="logo.jpeg" class="img-responsive"></div>
+						<div class="box"><img src="images/bckground.jpeg" class="img-responsive"></div>
+						<div class="box"><img src="images/j.jpg" class="img-responsive"></div>
+						<div class="box"><img src="images/bckground.jpeg" class="img-responsive"></div>
+						<div class="box"><img src="logo.jpeg" class="img-responsive"></div>
+						<div class="box"><img src="images/j.jpg" class="img-responsive"></div>
+					</div>
+					<div class="footerSection">
+						<span class="glyphicon glyphicon-envelope"><b> 6</b></span>
+						<span class=" glyphicon glyphicon-trash"></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+	<!--JS FOR STORY MOVE-->
+	<script>
+		$('.owl-carousel').owlCarousel({
+		    loop:false,
+		    margin:10,
+		    nav:true,
+			 responsive : {
+			    // breakpoint from 0 up
+			    0 : {
+			        items:1
+			    }
+		    }
+		})
+	</script>	 
+</body>
+</html>

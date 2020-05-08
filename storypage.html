@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="statuspage.css">
+	<script src="https://use.fontawesome.com/2e5e7965a4.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="jquery.js"></script>
+	<script src="owl.carousel.min.js"></script>
+</head>
+<body>
+	<!--NAVBAR-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          		 <span class="glyphicon glyphicon-menu-hamburger"></span>            
+        	</button>
+	     	<a class="navbar-brand" href="#">Let`s Gossip</a>
+	    </div> 
+	    <div class="collapse navbar-collapse" id="myNavbar"> 	      
+		    <ul class="nav navbar-nav navbar-right">
+		       <li><a href="storypage.html#container"><span class="glyphicon glyphicon-home"></span></a>
+		       </li>
+		       <li><a href="#"><i class="fa fa-scribd" aria-hidden="true"></i></a></li>
+		       <li><a href="chatpage.html#body"><i class="fa fa-weixin" aria-hidden="true"></i></a></li>
+		       <a href="profile.html#body"><img src="logo.jpeg" class="profile-logo"></a>
+	   		 </ul>
+   		</div>
+	   </div>
+	</nav>
+	<!--NAVBAR-->
+	<!--STORY AREA-->
+	<div class="container">
+		<div class="row story-area">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 ">
+				<div class="status-area owl-carousel">
+					<div class="box"><a href="mystorypage.html#body"><img src="logo.jpeg"></a><span class="profilename">hellofdhfhjsdf</span>
+					</div>
+					<div class="box"><a href="show-story.html#body"><img src="logo.jpeg"></a><span class="profilename">hellofdhfhjsdf</span>
+					</div>
+					<div class="box"><a href="show-story.html#body"><img src="logo.jpeg"></a><span class="profilename">hellofdhfhjsdf</span>
+					</div>
+					<div class="box"><a href="show-story.html#body"><img src="logo.jpeg"></a><span class="profilename">hellofdhfhjsdf</span>
+					</div>
+					<div class="box"><a href="show-story.html#body"><img src="logo.jpeg"></a><span class="profilename">hellofdhfhjsdf</span>
+					</div>
+					<div class="box"><a href="show-story.html#body"><img src="logo.jpeg"></a><span class="profilename">hellofdhfhjsdf</span>
+					</div>
+					<div class="box"><a href="show-story.html#body"><img src="logo.jpeg"></a><span class="profilename">hellofdhfhjsdf</span>
+					</div>
+				</div>				
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+
+		<!--POST AREA-->
+		<div class="row post-area">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+   				<header class="myheader">
+   					<img src="logo.jpeg" class="post-profile-logo">
+   					<span class="name">Name</span><br>
+   					<span class="time">Time</span>
+   					<i class="fa fa-ellipsis-v"></i>
+   				</header>
+   				<div class="img-area">
+   					<img src="images/j.jpg" class="img-size img-responsive">		
+   				</div>
+   				<div>
+   					<i class="fa fa-heart-o"></i>
+					<i class="fa fa-commenting-o"></i>
+   				</div>
+   				<br><br>
+				<div class="write-content">
+					<b>@username</b>
+					<span>hii</span>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+				<div class="row post-area">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+   				<header class="myheader">
+   					<img src="logo.jpeg" class="post-profile-logo">
+   					<span class="name">Name</span><br>
+   					<span class="time">Time</span>
+   					<i class="fa fa-ellipsis-v"></i>
+   				</header>
+   				<div class="img-area">
+   					<img src="images/bckground.jpeg" class="img-size img-responsive">		
+   				</div>
+   				<div>
+   					<i class="fa fa-heart-o"></i>
+					<i class="fa fa-commenting-o"></i>
+   				</div>
+   				<br><br>
+				<div class="write-content">
+					<b>@username</b>
+					<span>hii</span>
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<!--CLOSE POST AREA-->
+	</div>
+	<!--STORY AREA CLOSE-->
+
+
+
+	<!--JS FOR STORY MOVE-->
+	<script>
+		$('.owl-carousel').owlCarousel({
+		    loop:false,
+		    margin:10,
+		    nav:true,
+		    items:6,
+		    responsive : {
+			    // breakpoint from 0 up
+			    0 : {
+			        items:4
+			    },
+			    // breakpoint from 480 up
+			    480 : {
+			       items:5
+			    },
+			    // breakpoint from 768 up
+			    768 : {
+			         items:5
+			    },
+			    // breakpoint from 768 up
+			    992 : {
+			         items:7
+			    }
+		    }
+		})
+	</script>	 
+</body>
+</html>

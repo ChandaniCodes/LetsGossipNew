@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Dancing+Script:wght@700&family=Galada&family=Nanum+Gothic&display=swap');
+
+body {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background:url('https://images.pexels.com/photos/3774023/pexels-photo-3774023.jpeg?cs=srgb&dl=red-notebook-and-smartphone-beside-computer-laptop-3774023.jpg&fm=jpg');
+	background-size: 100% 100%;
+}
+.container-fluid{
+	position: relative;
+	height: 100vh;
+	width: 100%; 
+	background-color: rgb(0, 179, 179,0.5);
+}
+#signupbox1{
+	height: 450px;
+	width: 300px;
+	/*background-color: rgba(255, 0, 0,0.7);*/
+	background-color: transparent;
+	margin-top: 10%;
+	padding:20px;
+
+}
+#signupbox2{
+	position: absolute;
+	height: 450px;
+	width: 300px;
+	/*background-color: rgba(255, 0, 0,0.7);*/
+	background-color: transparent;
+	margin-top: 10%;
+	padding:20px;
+
+}
+input[type="text"],input[type="password"]{
+	margin-bottom: 20px;
+	border:none;
+	background:transparent;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+h1{
+	color: #fff;
+	font-family: 'Galada', cursive;
+}
+label{
+	color: #fff;
+}
+button{
+	height: 45px;
+	width: 150px;
+	border-radius: 25px;
+	background-color: #fff;
+	border:transparent;
+	font-size: 17px;
+	color: rgb(0, 179, 179);
+}
+button:hover{
+	background: transparent;
+	color: #fff;
+	border:1px solid #fff;
+}
+
+.recover{
+	color: #fff;
+	font-size: 17px;
+}
+.navbar-default{
+	background-color: transparent;
+	border:none;
+}
+.navbar-default .container ul li a{
+	color: #ccffff;
+	font-size: 20px;
+}
+.navbar-default .container ul li a:hover{
+	color: #fff;
+	font-size: 20px;
+}

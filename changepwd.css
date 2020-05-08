@@ -1,0 +1,56 @@
+/*import font family*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Dancing+Script:wght@700&family=Galada&family=Nanum+Gothic&display=swap');
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-image: url('https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?cs=srgb&dl=ballpen-blur-close-up-computer-461077.jpg&fm=jpg');
+	background-size: 100% 100%;
+}
+.container{
+	height: 100vh;
+	width: 100%; 
+	background-color: rgba(102, 102, 153,0.6);
+}
+#changePwd{
+	margin-top: 80px;
+}
+#formStyle{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+h1{
+	color: #fff;
+	font-family: 'Galada', cursive;
+}
+button{
+	height: 45px;
+	width: 100px;
+	border-radius: 5px;
+	background-color: transparent;
+	border:2px solid #fff;
+	font-size: 17px;
+	color: #fff;
+	margin-left: 35%;
+	margin-bottom: 20px;
+}
+button:hover{
+	background: transparent;
+	color: #fff;
+	border:1px solid #fff;
+}
+label{
+	color: #fff;
+	padding-top: 10px;
+}
+input[type="password"]{
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid #fff;
+}
+.footer{
+	color: #fff;
+}
+a{
+	color: #ffff4d;
+}
